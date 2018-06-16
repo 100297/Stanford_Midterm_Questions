@@ -45,6 +45,7 @@ public class AnimalHipsterTest
 		HashMap<String, String> favoriteAnimals = new HashMap<String, String>();
 		
 		assertTrue(animalHipster.findAnimalHipsters(network, favoriteAnimals).isEmpty());
+		
 	}
 	
 	@Test
